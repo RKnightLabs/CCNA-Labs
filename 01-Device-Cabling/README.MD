@@ -48,7 +48,7 @@ This lab demonstrates how to correctly connect networking devices using the appr
 
 ## 🖥️ How to Open the Lab File
 
-1. Download the `.pkt` file from this folder. Click **“Veiw Raw”** to save it.
+1. Download the `.pkt` file from this folder. Click **“View Raw”** to save it.
 2. Open it using **Cisco Packet Tracer** (version 8.0 or later recommended).
 3. If you don’t have Packet Tracer installed:
    - You can download it for free from Cisco’s official website (requires free account):  
