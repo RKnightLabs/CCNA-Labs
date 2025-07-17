@@ -46,6 +46,16 @@ This lab demonstrates how to correctly connect networking devices using the appr
 - Understood when to use RS-232 vs Ethernet cables vs Fiber
 - Reinforced basic port and cabling knowledge essential for CCNA
 
+## 🖥️ How to Open the Lab File
+
+1. Download the `.pkt` file from this folder. Click **“Download Raw”** to save it.
+2. Open it using **Cisco Packet Tracer** (version 8.0 or later recommended).
+3. If you don’t have Packet Tracer installed:
+   - You can download it for free from Cisco’s official website (requires free account):  
+     [https://www.netacad.com/portal/resources/packet-tracer](https://www.netacad.com/portal/resources/packet-tracer)
+
+4. Once opened, you can explore the topology, check configurations, and run CLI commands.
+
 ---
 
 *Lab created as part of my CCNA self-study journey.*
