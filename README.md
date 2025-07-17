@@ -24,7 +24,7 @@ Each lab is saved as a `.pkt` file compatible with Cisco Packet Tracer.
 
 ## How to Open the Lab File
 
-1. Download the `.pkt` file from this folder. Click **“Download Raw”** to save it.
+1. Download the `.pkt` file from this folder. Click **“View Raw”** to save it.
 2. Open it using **Cisco Packet Tracer** (version 8.0 or later recommended).
 3. If you don’t have Packet Tracer installed:
    - You can download it for free from Cisco’s official website (requires free account):  
