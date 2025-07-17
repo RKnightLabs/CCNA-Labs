@@ -22,7 +22,7 @@ Each lab is saved as a `.pkt` file compatible with Cisco Packet Tracer.
 2. Open it in Cisco Packet Tracer to view and interact with the network setup.  
 3. Feel free to modify and experiment with the configurations.
 
-## 🖥️ How to Open the Lab File
+## How to Open the Lab File
 
 1. Download the `.pkt` file from this folder. Click **“Download Raw”** to save it.
 2. Open it using **Cisco Packet Tracer** (version 8.0 or later recommended).
