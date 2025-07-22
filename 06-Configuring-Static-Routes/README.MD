@@ -68,4 +68,4 @@ This lab is part of my ongoing **CCNA self-study journey**.
 Feel free to explore, practice, and replicate the configurations.
 
 ---
-Created By [Ryan Knight]
+Created By *[Ryan Knight]*
