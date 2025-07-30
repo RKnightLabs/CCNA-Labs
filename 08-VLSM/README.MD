@@ -12,33 +12,6 @@ The goal of this lab is to:
 - Establish static routing so all devices can communicate
 - Solidify subnetting and routing knowledge using real-world practice
 
-## 🌐 Topology Overview
-
-csharp
-Copy
-Edit
-              [PC1]
-                |
-              [SW1]
-                |
-     LAN1 --> R1 G0/0
-              R1 G0/1 <-- LAN2
-                |           |
-              [SW2]       [PC2]
-                              
-     R1 G0/0/0 <--> G0/0/0 R2  (Point-to-Point)
-      
-       R2 G0/0 --> LAN3
-                |      \
-              [SW3]   [PC3]
-
-       R2 G0/1 --> LAN4
-                |      \
-              [SW4]   [PC4]
-nginx
-Copy
-Edit
-
 ## 🧮 Subnetting Requirements
 
 Original Network: `192.168.5.0/24`  
@@ -78,15 +51,13 @@ Each router and PC was manually assigned an IP from the appropriate subnet. Desc
 To ensure end-to-end connectivity, I added static routes on both routers.
 
 #### On R1:
-```bash
+
 ip route 192.168.5.192 255.255.255.240 192.168.5.226  ! LAN3
 ip route 192.168.5.208 255.255.255.240 192.168.5.226  ! LAN4
 On R2:
-bash
-Copy
-Edit
 ip route 192.168.5.0   255.255.255.128 192.168.5.225  ! LAN2
 ip route 192.168.5.128 255.255.255.192 192.168.5.225  ! LAN1
+
 🧪 Testing & Validation
 Verified each interface using show ip interface brief
 
@@ -109,10 +80,12 @@ Topology design and interface documentation
 Download the .pkt file from the shared folder
 Click “View Raw” to save the file locally
 Open using Cisco Packet Tracer (version 8.0 or later recommended)
+
 🛠️ Need Packet Tracer?
 Download for free at Cisco Networking Academy:
 https://www.netacad.com/portal/resources/packet-tracer
 Requires a free NetAcad account
+
 🧠 Notes
 This lab is part of my ongoing CCNA self-study journey.
 Feel free to explore, practice, and replicate the configurations.
