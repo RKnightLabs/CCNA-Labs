@@ -58,36 +58,37 @@ On R2:
 ip route 192.168.5.0   255.255.255.128 192.168.5.225  ! LAN2
 ip route 192.168.5.128 255.255.255.192 192.168.5.225  ! LAN1
 
-🧪 Testing & Validation
+## 🧪 Testing & Validation
 Verified each interface using show ip interface brief
 
 Tested connectivity with ping from PC1 to PC2, PC3, and PC4
 Confirmed routing table entries with show ip route
 Ensured no packet loss across the topology
 
-🧰 Tools Used
+## 🧰 Tools Used
 Cisco Packet Tracer
 CLI configuration via routers and switches
 Subnetting calculations by hand
 
-✅ What I Learned
+## ✅ What I Learned
 How to subnet efficiently using VLSM
 Assigning usable IPs based on specific host needs
 Static route configuration and testing
 Topology design and interface documentation
 
-🖥️ How to Access the Lab File
-Download the .pkt file from the shared folder
-Click “View Raw” to save the file locally
-Open using Cisco Packet Tracer (version 8.0 or later recommended)
+## 🖥️ How to Access the Lab File
+- Download the `.pkt` file from the shared folder
+- Click “View Raw” to save the file locally
+- Open using **Cisco Packet Tracer** (version 8.0 or later recommended)
 
-🛠️ Need Packet Tracer?
-Download for free at Cisco Networking Academy:
-https://www.netacad.com/portal/resources/packet-tracer
-Requires a free NetAcad account
+## 🛠️ Need Packet Tracer?
+- Download for free at Cisco Networking Academy:  
+  [https://www.netacad.com/portal/resources/packet-tracer](https://www.netacad.com/portal/resources/packet-tracer)  
+- Requires a free NetAcad account
 
-🧠 Notes
-This lab is part of my ongoing CCNA self-study journey.
+## 🧠 Notes
+This lab is part of my ongoing **CCNA self-study journey**.  
 Feel free to explore, practice, and replicate the configurations.
 
-Created By [Ryan Knight]
+---
+Created By *[Ryan Knight]*
