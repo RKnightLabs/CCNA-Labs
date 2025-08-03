@@ -1,7 +1,7 @@
 # 🧪 CCNA Lab: VLAN Routing with Subnet Gateways
 
 ## 🧠 Objective
-To configure inter-VLAN routing using a router-on-a-stick setup and verify connectivity between VLANs in a segmented network.
+To configure inter-VLAN routing setup and verify connectivity between VLANs in a segmented network.
 
 ---
 
@@ -55,7 +55,7 @@ Broadcast pings stay within their VLAN scope
 MAC tables correctly reflect dynamic learning
 
 📎 Notes
-Verify trunk configuration on the switch interfaces going to the router.
+Verify  configuration on the switch interfaces going to the router.
 Ensure correct default gateways are configured on PCs.
 Use Simulation Mode in Packet Tracer to see ARP requests/replies and pings.
 
