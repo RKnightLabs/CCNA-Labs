@@ -102,6 +102,23 @@ I administratively shut down all switch interfaces that are not connected to any
 
 ---
 
+## 🖥️ How to Open the Lab File
+
+1. I download the `.pkt` file from the repository.
+2. I click **View Raw** to save it locally.
+3. I open it with **Cisco Packet Tracer 8.0 or later**.
+
+### Need Packet Tracer?
+
+Download from Cisco Networking Academy:  
+https://www.netacad.com/portal/resources/packet-tracer
+
+---
+
+*Lab created as part of a CCNA self-study journey.*
+
+---
+
 ## 🖥️ Useful Commands
 
 ```bash
@@ -121,20 +138,3 @@ interface g0/1
 show ip interface brief
 show running-config
 copy running-config startup-config
-
----
-
-## 🖥️ How to Open the Lab File
-
-I download the .pkt file from the repository.
-
-I click View Raw to save it locally.
-
-I open it with Cisco Packet Tracer 8.0 or later.
-
-Need Packet Tracer?
-
-Download from Cisco Networking Academy:
-https://www.netacad.com/portal/resources/packet-tracer
-
-Lab created as part of a CCNA self-study journey.
